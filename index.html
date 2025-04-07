@@ -1,6 +1,163 @@
 <!DOCTYPE html><html lang="ru">
 <head>
+    <m<!DOCTYPE html><html lang="ru">
+<head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ферма ягод</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            text-align: center;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 15px;
+            font-size: 24px;
+        }
+        .catalog {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+        .item {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 280px;
+            transition: transform 0.3s ease;
+            text-align: left;
+        }
+        .item:hover {
+            transform: scale(1.05);
+        }
+        .item img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .item-description {
+            font-size: 14px;
+            color: #555;
+            margin-top: 5px;
+        }
+        ul.characteristics {
+            padding-left: 20px;
+            font-size: 13px;
+            color: #444;
+        }
+        .order-button {
+            display: block;
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #25D366;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .order-button:hover {
+            background-color: #1DA851;
+        }
+        .wholesale {
+            background-color: #ffffff;
+            padding: 30px 20px;
+            margin: 30px auto;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            text-align: left;
+        }
+        .wholesale h2 {
+            color: #4CAF50;
+            margin-bottom: 15px;
+        }
+        .wholesale p {
+            font-size: 15px;
+            color: #333;
+        }
+        .wholesale a {
+            display: inline-block;
+            margin-top: 15px;
+            background-color: #25D366;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .wholesale a:hover {
+            background-color: #1DA851;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        .whatsapp {
+            display: block;
+            margin-top: 10px;
+            color: #25D366;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>Ягодная ферма</header>
+    <section class="catalog">
+        <div class="item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/PerfectStrawberry.jpg" alt="Клубника">
+            <div><strong>Клубника</strong></div>
+            <div class="item-description">
+                Сочная и сладкая клубника, выращенная в экологичных условиях. Отличный выбор для десертов и свежего употребления.
+                <ul class="characteristics">
+                    <li>Сорт: Альбион</li>
+                    <li>Вкус: сладкий с лёгкой кислинкой</li>
+                    <li>Вес ягоды: 20–30 г</li>
+                    <li>Сбор: июнь – сентябрь</li>
+                    <li>Упаковка: корзинка 500 г</li>
+                </ul>
+                <a class="order-button" href="https://wa.me/79991234567?text=Здравствуйте!%20Хочу%20заказать%20клубнику%20Альбион." target="_blank">Заказать клубнику</a>
+            </div>
+        </div>
+        <div class="item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Blueberries.jpg" alt="Голубика">
+            <div><strong>Голубика</strong></div>
+            <div class="item-description">
+                Полезная голубика, богатая антиоксидантами. Идеальна для выпечки, смузи и здорового питания.
+                <ul class="characteristics">
+                    <li>Сорт: Дюк</li>
+                    <li>Вкус: сладкий, слегка терпкий</li>
+                    <li>Диаметр ягоды: 10–16 мм</li>
+                    <li>Сбор: июль – август</li>
+                    <li>Упаковка: пластиковый контейнер 250 г</li>
+                </ul>
+                <a class="order-button" href="https://wa.me/79991234567?text=Здравствуйте!%20Хочу%20заказать%20голубику%20сорт%20Дюк." target="_blank">Заказать голубику</a>
+            </div>
+        </div>
+    </section><section class="wholesale">
+    <h2>Закупки оптом</h2>
+    <p>Мы предлагаем выгодные условия для оптовых покупателей, магазинов и переработчиков. Свежая клубника и голубика в больших объёмах напрямую с фермы. Доставка по Краснодарскому краю и регионам.</p>
+    <p>Индивидуальные цены при заказе от 20 кг. Сотрудничаем с юридическими лицами и ИП.</p>
+    <a href="https://wa.me/79991234567?text=Здравствуйте!%20Интересует%20оптовая%20закупка%20ягод." target="_blank">Связаться по опту</a>
+</section>
+<footer>
+    Контакты: +7 9933136668 | Заказ онлайн<br>
+    <a class="whatsapp" href="https://wa.me/79991234567?text=Здравствуйте!%20Хочу%20заказать%20ягоды%20с%20вашего%20сайта." target="_blank">Написать в WhatsApp</a>
+</footer>
+
+</body>
+</html>eta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ферма ягод</title>
     <style>
@@ -49,6 +206,6 @@
         <div class="item">Клубника</div>
         <div class="item">Голубика</div>
     </section>
-    <footer>Контакты: +7 999 123-45-67 | Заказ онлайн</footer>
+    <footer>Контакты: +7 9933136668 | Заказ онлайн</footer>
 </body>
 </html>
