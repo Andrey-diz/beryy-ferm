@@ -1,0 +1,54 @@
+<!DOCTYPE html><html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ферма ягод</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            text-align: center;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 15px;
+            font-size: 24px;
+        }
+        .catalog {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+        .item {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 250px;
+            transition: transform 0.3s ease;
+        }
+        .item:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>Ягодная ферма</header>
+    <section class="catalog">
+        <div class="item">Клубника</div>
+        <div class="item">Голубика</div>
+    </section>
+    <footer>Контакты: +7 999 123-45-67 | Заказ онлайн</footer>
+</body>
+</html>
